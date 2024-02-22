@@ -95,7 +95,7 @@ export const recipeData = [
         name:"Shepard's Pie",
         category: "",
         description: "",
-        ingredients: ["", ""],
+        ingredients: ["Hamburger", "Mashed Potatoes", "Corn"],
     },
     {
         id: 15,
@@ -109,7 +109,7 @@ export const recipeData = [
         name:"Enchiladas",
         category: "",
         description: "",
-        ingredients: ["", ""],
+        ingredients: ["Enchilada Sauce", "Chicken", "Shredded Cheese", "Tortillas"],
     },
     {
         id: 17,
@@ -123,7 +123,7 @@ export const recipeData = [
         name:"Nachos",
         category: "",
         description: "",
-        ingredients: ["", ""],
+        ingredients: ["Nacho Chips", "Shredded Cheese"],
     },
     {
         id: 19,
@@ -137,14 +137,14 @@ export const recipeData = [
         name:"Chili",
         category: "",
         description: "",
-        ingredients: ["", ""],
+        ingredients: ["Hamburger", "Kidney Beans", "Tomato Paste", "Tomato Sauce", "Onions", "Bell Pepper", "Shredded Cheese", "Sour Cream", "Corn Bread"],
     },
     {
         id: 21,
         name:"Lasagna",
         category: "",
         description: "",
-        ingredients: ["", ""],
+        ingredients: ["Oven Ready Lasagna Noodles", "Sauce", "Mozzarella Cheese", "Ricotta Cheese", "Hamburger", "Sausage"],
     },
     {
         id: 22,
@@ -207,7 +207,7 @@ export const recipeData = [
         name:"Pork Chops",
         category: "",
         description: "",
-        ingredients: ["", ""],
+        ingredients: ["Pork Chops", "Eggs", "Panko"],
     },
     {
         id: 31,
@@ -278,5 +278,12 @@ export const recipeData = [
         category: "",
         description: "",
         ingredients: ["Arborio Rice", "Chicken Stock", "Vegetable Oil", "Butter", "Medium Shallot", "Dry White Wine", "Parmesan Cheese", "Italian Parsley", "Kosher Salt", "Black Pepper"],
+    },
+    {
+        id: 41,
+        name:"Haddock",
+        category: "",
+        description: "",
+        ingredients: ["Haddock", "Crackers", "Butter", "Lemon"],
     },
 ]

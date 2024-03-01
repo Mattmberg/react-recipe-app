@@ -284,6 +284,13 @@ export const recipeData = [
         name:"Haddock",
         category: "",
         description: "",
-        ingredients: ["Haddock", "Crackers", "Butter", "Lemon"],
+        ingredients: ["Haddock", "Crackers", "Butter", "Lemon", "Milk"],
+    },
+    {
+        id: 42,
+        name:"Cod",
+        category: "",
+        description: "",
+        ingredients: ["Cod", "Crackers", "Butter", "Lemon", "Milk"],
     },
 ]

@@ -7,6 +7,10 @@ import { useState } from "react";
 import { send } from 'emailjs-com';
 
 export const Container = () => {
+    const [mealList, setMealList] = useState({
+        mealListToSend: [],
+    });
+
     const [meals, setMeals] = useState({
         sunMeal: "",
         monMeal: "",
@@ -20,7 +24,7 @@ export const Container = () => {
     const [toSend, setToSend] = useState({
         from_name: '',
         to_name: 'Matthew Bergeron Jr.',
-        message: '',
+        message: mealList.mealListToSend,
         reply_to: '',
       });
   

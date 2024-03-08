@@ -7,9 +7,15 @@ import { useState } from "react";
 import { send } from 'emailjs-com';
 
 export const Container = () => {
-    const [mealList, setMealList] = useState({
-        mealListToSend: [],
-    });
+    const [mealList, setMealList] = useState([
+        { id: "Sunday", name:"0"},
+        { id: "Monday", name:"1"},
+        { id: "Tuesday", name:"2"},
+        { id: "Wednesday", name:"3"},
+        { id: "Thursday", name:"4"},
+        { id: "Friday", name:"5"},
+        { id: "Saturday", name:"6"}
+    ]);
 
     const [meals, setMeals] = useState({
         sunMeal: "",
@@ -24,7 +30,7 @@ export const Container = () => {
     const [toSend, setToSend] = useState({
         from_name: '',
         to_name: 'Matthew Bergeron Jr.',
-        message: mealList.mealListToSend,
+        message: mealList,
         reply_to: '',
       });
   
@@ -77,7 +83,7 @@ export const Container = () => {
                         <td>Person 1</td>
                     </tr>
                     <tr>
-                        <td><b>Meal</b></td>
+                        <td><b>Meal</b>{mealList.mealListToSend}</td>
                         <td>                            
                             <select value={meals.sunMeal}                          
                             onChange={e => { setMeals({
@@ -110,9 +116,8 @@ export const Container = () => {
                         </td>
                         <td>
                             <select value={meals.wedMeal}                          
-                            onChange={e => { setMeals({
-                                ...meals, wedMeal: e.target.value
-                            }); }}>   
+                            onChange={e => { setMeals({ ...meals, wedMeal: e.target.value }); setMealList(mealList.map(meal => { if (meal.id === "Wednesday") { return { ...meal, name: e.target.value};} else { return meal; }})); 
+                            }}>   
                                 {recipeData.map(recipe => {
                                     return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>;
                                 })}
@@ -151,6 +156,7 @@ export const Container = () => {
                     </tr>
                 </table>
                 <div className="grid-container">
+                    {mealList.map(meal => {return <div key={meal.id}>{meal.name}</div>})}
                     {recipeData.map(recipe => {
                         return <RecipeCard key={recipe.id} {...recipe} />;
                     })}

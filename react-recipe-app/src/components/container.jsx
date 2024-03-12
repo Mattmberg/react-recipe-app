@@ -8,13 +8,13 @@ import { send } from 'emailjs-com';
 
 export const Container = () => {
     const [mealList, setMealList] = useState([
-        { id: "Sunday", name:"0"},
-        { id: "Monday", name:"1"},
-        { id: "Tuesday", name:"2"},
-        { id: "Wednesday", name:"3"},
-        { id: "Thursday", name:"4"},
-        { id: "Friday", name:"5"},
-        { id: "Saturday", name:"6"}
+        { id: "Sunday", name:""},
+        { id: "Monday", name:""},
+        { id: "Tuesday", name:""},
+        { id: "Wednesday", name:""},
+        { id: "Thursday", name:""},
+        { id: "Friday", name:""},
+        { id: "Saturday", name:""}
     ]);
 
     const [meals, setMeals] = useState({
@@ -83,7 +83,7 @@ export const Container = () => {
                         <td>Person 1</td>
                     </tr>
                     <tr>
-                        <td><b>Meal</b>{mealList.mealListToSend}</td>
+                        <td><b>Meal</b></td>
                         <td>                            
                             <select value={meals.sunMeal}                          
                             onChange={e => { setMeals({
@@ -156,7 +156,6 @@ export const Container = () => {
                     </tr>
                 </table>
                 <div className="grid-container">
-                    {mealList.map(meal => {return <div key={meal.id}>{meal.name}</div>})}
                     {recipeData.map(recipe => {
                         return <RecipeCard key={recipe.id} {...recipe} />;
                     })}

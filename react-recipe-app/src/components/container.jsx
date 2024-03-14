@@ -30,7 +30,13 @@ export const Container = () => {
     const [toSend, setToSend] = useState({
         from_name: 'Recipe App',
         to_name: '',
-        message: mealList,
+        sunMeal: meals.sunMeal,
+        monMeal: meals.monMeal,
+        tuesMeal: meals.tuesMeal,
+        wedMeal: meals.wedMeal,
+        thurMeal: meals.thurMeal,
+        friMeal: meals.friMeal,
+        satMeal: meals.satMeal,
         reply_to: '',
       });
   
@@ -48,7 +54,13 @@ export const Container = () => {
             setToSend({
             from_name: 'Recipe App',
             to_name: '',
-            message: mealList,
+            sunMeal: meals.sunMeal,
+            monMeal: meals.monMeal,
+            tuesMeal: meals.tuesMeal,
+            wedMeal: meals.wedMeal,
+            thurMeal: meals.thurMeal,
+            friMeal: meals.friMeal,
+            satMeal: meals.satMeal,
             reply_to: '',
             })
         })
@@ -90,7 +102,9 @@ export const Container = () => {
                         <tr>
                             <td><b>Meal</b></td>
                             <td>                            
-                                <select value={meals.sunMeal}                          
+                                <select
+                                name="sunMeal" 
+                                value={meals.sunMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, sunMeal: e.target.value
                                 }); setMealList(mealList.map(meal => { if (meal.id === "Sunday") { return { ...meal, name: e.target.value};} else { return meal; }}));  }}>   
@@ -100,7 +114,9 @@ export const Container = () => {
                                 </select>
                             </td>
                             <td>                           
-                                <select value={meals.monMeal}                          
+                                <select
+                                name="monMeal" 
+                                value={meals.monMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, monMeal: e.target.value
                                 }); setMealList(mealList.map(meal => { if (meal.id === "Monday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
@@ -110,7 +126,9 @@ export const Container = () => {
                                 </select>
                             </td>
                             <td>                            
-                                <select value={meals.tuesMeal}                          
+                                <select 
+                                name="tuesMeal"
+                                value={meals.tuesMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, tuesMeal: e.target.value
                                 }); setMealList(mealList.map(meal => { if (meal.id === "Tuesday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
@@ -120,7 +138,9 @@ export const Container = () => {
                                 </select>
                             </td>
                             <td>
-                                <select value={meals.wedMeal}                          
+                                <select 
+                                name="wedMeal"
+                                value={meals.wedMeal}                          
                                 onChange={e => { setMeals({ ...meals, wedMeal: e.target.value }); setMealList(mealList.map(meal => { if (meal.id === "Wednesday") { return { ...meal, name: e.target.value};} else { return meal; }})); 
                                 }}>   
                                     {recipeData.map(recipe => {
@@ -129,7 +149,9 @@ export const Container = () => {
                                 </select>
                             </td>
                             <td>                            
-                                <select value={meals.thurMeal}                          
+                                <select 
+                                name="thurMeal"
+                                value={meals.thurMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, thurMeal: e.target.value
                                 }); setMealList(mealList.map(meal => { if (meal.id === "Thursday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
@@ -139,7 +161,9 @@ export const Container = () => {
                                 </select>
                                 </td>
                             <td>                            
-                                <select value={meals.friMeal}                          
+                                <select 
+                                name="friMeal"
+                                value={meals.friMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, friMeal: e.target.value
                                 }); setMealList(mealList.map(meal => { if (meal.id === "Friday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
@@ -149,7 +173,9 @@ export const Container = () => {
                                 </select>
                             </td>
                             <td>                            
-                                <select value={meals.satMeal}                          
+                                <select 
+                                name="satMeal"
+                                value={meals.satMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, satMeal: e.target.value
                                 }); setMealList(mealList.map(meal => { if (meal.id === "Saturday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
@@ -161,13 +187,12 @@ export const Container = () => {
                         </tr>
                     </table>
                     <div>
-                        <h2>Email</h2>
+                        <h2>Email{meals.satMeal}{toSend.satMeal}</h2>
                         <input placeholder="Email" type="text" name="to_name" value={toSend.to_name} onChange={handleEmailChange} required/>
                         <button className="" type="submit">Submit</button>
                     </div>
                 </form>
                 <div className="grid-container">
-                    <div className="recipe-card">{toSend.to_name}|{toSend.message.map(meal => {return <div key={meal.id}>{meal.name}</div>})}</div>
                     {recipeData.map(recipe => {
                         return <RecipeCard key={recipe.id} {...recipe} />;
                     })}

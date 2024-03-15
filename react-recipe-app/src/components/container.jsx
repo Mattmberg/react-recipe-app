@@ -30,13 +30,13 @@ export const Container = () => {
     const [toSend, setToSend] = useState({
         from_name: 'Recipe App',
         to_name: '',
-        sunMeal: meals.sunMeal,
-        monMeal: meals.monMeal,
-        tuesMeal: meals.tuesMeal,
-        wedMeal: meals.wedMeal,
-        thurMeal: meals.thurMeal,
-        friMeal: meals.friMeal,
-        satMeal: meals.satMeal,
+        sunMeal: '',
+        monMeal: '',
+        tuesMeal: '',
+        wedMeal: '',
+        thurMeal: '',
+        friMeal: '',
+        satMeal: '',
         reply_to: '',
       });
   
@@ -54,13 +54,13 @@ export const Container = () => {
             setToSend({
             from_name: 'Recipe App',
             to_name: '',
-            sunMeal: meals.sunMeal,
-            monMeal: meals.monMeal,
-            tuesMeal: meals.tuesMeal,
-            wedMeal: meals.wedMeal,
-            thurMeal: meals.thurMeal,
-            friMeal: meals.friMeal,
-            satMeal: meals.satMeal,
+            sunMeal: '',
+            monMeal: '',
+            tuesMeal: '',
+            wedMeal: '',
+            thurMeal: '',
+            friMeal: '',
+            satMeal: '',
             reply_to: '',
             })
         })
@@ -107,7 +107,7 @@ export const Container = () => {
                                 value={meals.sunMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, sunMeal: e.target.value
-                                }); setMealList(mealList.map(meal => { if (meal.id === "Sunday") { return { ...meal, name: e.target.value};} else { return meal; }}));  }}>   
+                                }); setMealList(mealList.map(meal => { if (meal.id === "Sunday") { return { ...meal, name: e.target.value};} else { return meal; }})); setToSend({...toSend, sunMeal: e.target.value });}}>      
                                     {recipeData.map(recipe => {
                                         return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>;
                                     })}
@@ -119,7 +119,7 @@ export const Container = () => {
                                 value={meals.monMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, monMeal: e.target.value
-                                }); setMealList(mealList.map(meal => { if (meal.id === "Monday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
+                                }); setMealList(mealList.map(meal => { if (meal.id === "Monday") { return { ...meal, name: e.target.value};} else { return meal; }})); setToSend({...toSend, monMeal: e.target.value });}}>     
                                     {recipeData.map(recipe => {
                                         return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>;
                                     })}
@@ -131,7 +131,7 @@ export const Container = () => {
                                 value={meals.tuesMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, tuesMeal: e.target.value
-                                }); setMealList(mealList.map(meal => { if (meal.id === "Tuesday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
+                                }); setMealList(mealList.map(meal => { if (meal.id === "Tuesday") { return { ...meal, name: e.target.value};} else { return meal; }})); setToSend({...toSend, tuesMeal: e.target.value });}}>   
                                     {recipeData.map(recipe => {
                                         return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>;
                                     })}
@@ -141,8 +141,7 @@ export const Container = () => {
                                 <select 
                                 name="wedMeal"
                                 value={meals.wedMeal}                          
-                                onChange={e => { setMeals({ ...meals, wedMeal: e.target.value }); setMealList(mealList.map(meal => { if (meal.id === "Wednesday") { return { ...meal, name: e.target.value};} else { return meal; }})); 
-                                }}>   
+                                onChange={e => { setMeals({ ...meals, wedMeal: e.target.value }); setMealList(mealList.map(meal => { if (meal.id === "Wednesday") { return { ...meal, name: e.target.value};} else { return meal; }})); setToSend({...toSend, wedMeal: e.target.value });}}>   
                                     {recipeData.map(recipe => {
                                         return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>;
                                     })}
@@ -154,7 +153,7 @@ export const Container = () => {
                                 value={meals.thurMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, thurMeal: e.target.value
-                                }); setMealList(mealList.map(meal => { if (meal.id === "Thursday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
+                                }); setMealList(mealList.map(meal => { if (meal.id === "Thursday") { return { ...meal, name: e.target.value};} else { return meal; }})); setToSend({...toSend, thurMeal: e.target.value });}}>   
                                     {recipeData.map(recipe => {
                                         return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>;
                                     })}
@@ -166,7 +165,7 @@ export const Container = () => {
                                 value={meals.friMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, friMeal: e.target.value
-                                }); setMealList(mealList.map(meal => { if (meal.id === "Friday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
+                                }); setMealList(mealList.map(meal => { if (meal.id === "Friday") { return { ...meal, name: e.target.value};} else { return meal; }})); setToSend({...toSend, friMeal: e.target.value });}}>   
                                     {recipeData.map(recipe => {
                                         return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>;
                                     })}
@@ -178,7 +177,7 @@ export const Container = () => {
                                 value={meals.satMeal}                          
                                 onChange={e => { setMeals({
                                     ...meals, satMeal: e.target.value
-                                }); setMealList(mealList.map(meal => { if (meal.id === "Saturday") { return { ...meal, name: e.target.value};} else { return meal; }})); }}>   
+                                }); setMealList(mealList.map(meal => { if (meal.id === "Saturday") { return { ...meal, name: e.target.value};} else { return meal; }})); setToSend({...toSend, satMeal: e.target.value });}}>   
                                     {recipeData.map(recipe => {
                                         return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>;
                                     })}
@@ -187,7 +186,7 @@ export const Container = () => {
                         </tr>
                     </table>
                     <div>
-                        <h2>Email{meals.satMeal}{toSend.satMeal}</h2>
+                        <h2>Email{meals.satMeal}|{toSend.satMeal}</h2>
                         <input placeholder="Email" type="text" name="to_name" value={toSend.to_name} onChange={handleEmailChange} required/>
                         <button className="" type="submit">Submit</button>
                     </div>

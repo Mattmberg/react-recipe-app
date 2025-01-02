@@ -1,6 +1,6 @@
 
 
-export const RecipeCard = ({ id, name, description, ingredients, cookTemp}) => {
+export const RecipeCard = ({ id, name, description, ingredients, cookTemp, cookInstructions}) => {
     return (
         <div className ="recipe-card">
             <div className="recipe-card-body">
@@ -8,7 +8,13 @@ export const RecipeCard = ({ id, name, description, ingredients, cookTemp}) => {
                 <p className="recipe-description">
                     {description}
                 </p>
-                <p>Cook at: {cookTemp}</p>
+                <p>Cooking Instructions:
+                    <ul>
+                    {cookInstructions.map(cookInstructions => {
+                    return(<p>{cookInstructions}</p>);
+                    })}
+                    </ul>
+                </p>
                 <p className="ingredient-box">
                 {ingredients.map(ingredient => {
                     return(<p>{ingredient}</p>);

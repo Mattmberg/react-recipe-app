@@ -148,7 +148,7 @@ export const recipeData = [
         category: "",
         cookTemp: "",   
         description: "",
-        ingredients: ["Hamburger", "Burger Buns", "Cheese"],
+        ingredients: ["Hamburger", "Burger Buns", "Sliced Cheese"],
     },
     {
         id: 20,
@@ -180,7 +180,7 @@ export const recipeData = [
         category: "",
         cookTemp: "",   
         description: "",
-        ingredients: ["Hamburger", "Mini Burger Buns", "Cheese"],
+        ingredients: ["Hamburger", "Mini Burger Buns", "Sliced Cheese"],
     },
     {
         id: 24,

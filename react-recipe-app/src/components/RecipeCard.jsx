@@ -1,6 +1,6 @@
 
 
-export const RecipeCard = ({ id, name, description, ingredients, cookTemp, lastCooked, cookInstructions}) => {
+export const RecipeCard = ({category, cookInstructions, cookTemp, description, id, ingredients, lastCooked, name}) => {
     return (
         <div className ="recipe-card">
             <div className="recipe-card-body">

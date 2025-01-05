@@ -2,7 +2,7 @@ export const recipeData = [
     {
         id: 1,
         name:"Steak and Cheese Wraps",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -12,7 +12,7 @@ export const recipeData = [
     {
         id: 2,
         name:"Breakfast for Dinner",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -22,7 +22,7 @@ export const recipeData = [
     {
         id: 3,
         name:"Scrambled Eggs",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -32,7 +32,7 @@ export const recipeData = [
     {
         id: 4,
         name:"Quesadillas",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -42,7 +42,7 @@ export const recipeData = [
     {
         id: 5,
         name:"Homemade Chicken Tenders",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         description: "",
         ingredients: ["Chicken", "Panko", "Eggs"],
@@ -51,7 +51,7 @@ export const recipeData = [
     {
         id: 6,
         name:"Lemon Chicken Orzo",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -61,7 +61,7 @@ export const recipeData = [
     {
         id: 7,
         name:"Steak and Cheese Stuffed Peppers",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -71,7 +71,7 @@ export const recipeData = [
     {
         id: 8,
         name:"Mini Build Your Own Pizza",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -81,7 +81,7 @@ export const recipeData = [
     {
         id: 9,
         name:"Meatloaf",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -91,7 +91,7 @@ export const recipeData = [
     {
         id: 10,
         name:"BBQ Meatloaf",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -101,7 +101,7 @@ export const recipeData = [
     {
         id: 11,
         name:"Grilled Cheese",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -111,7 +111,7 @@ export const recipeData = [
     {
         id: 12,
         name:"Buffalo Chicken Grilled Cheese",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -121,7 +121,7 @@ export const recipeData = [
     {
         id: 13,
         name:"Buffalo Chicken Dip",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -131,7 +131,7 @@ export const recipeData = [
     {
         id: 14,
         name:"Shepard's Pie",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -141,7 +141,7 @@ export const recipeData = [
     {
         id: 15,
         name:"Tacos",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -151,7 +151,7 @@ export const recipeData = [
     {
         id: 16,
         name:"Enchiladas",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -161,7 +161,7 @@ export const recipeData = [
     {
         id: 17,
         name:"Pasta and Meatballs",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -171,7 +171,7 @@ export const recipeData = [
     {
         id: 18,
         name:"Nachos",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -181,7 +181,7 @@ export const recipeData = [
     {
         id: 19,
         name:"Burger",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -191,7 +191,7 @@ export const recipeData = [
     {
         id: 20,
         name:"Chili",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -201,7 +201,7 @@ export const recipeData = [
     {
         id: 21,
         name:"Lasagna",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -211,7 +211,7 @@ export const recipeData = [
     {
         id: 22,
         name:"Pulled BBQ Chicken Sandwiches",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -221,7 +221,7 @@ export const recipeData = [
     {
         id: 23,
         name:"Mini Burger Sliders",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -231,7 +231,7 @@ export const recipeData = [
     {
         id: 24,
         name:"Chicken and Veggie Stir-Fry",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -241,7 +241,7 @@ export const recipeData = [
     {
         id: 25,
         name:"Chicken Broccoli Alfredo",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -251,7 +251,7 @@ export const recipeData = [
     {
         id: 26,
         name:"Mac and Cheese",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -261,7 +261,7 @@ export const recipeData = [
     {
         id: 27,
         name:"Buffalo Mac and Cheese",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -271,7 +271,7 @@ export const recipeData = [
     {
         id: 28,
         name:"Chicken Tender Wraps",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -281,7 +281,7 @@ export const recipeData = [
     {
         id: 29,
         name:"Hot Dogs and Beans",
-        category: "",
+        category: "Main and Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -291,7 +291,7 @@ export const recipeData = [
     {
         id: 30,
         name:"Pork Chops",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -301,7 +301,7 @@ export const recipeData = [
     {
         id: 31,
         name:"Bagels",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -311,7 +311,7 @@ export const recipeData = [
     {
         id: 32,
         name:"Mozzarella Sticks",
-        category: "",
+        category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -321,7 +321,7 @@ export const recipeData = [
     {
         id: 33,
         name:"Broccoli",
-        category: "",
+        category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -331,7 +331,7 @@ export const recipeData = [
     {
         id: 34,
         name:"Diced Sweet Potatoes",
-        category: "",
+        category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -341,7 +341,7 @@ export const recipeData = [
     {
         id: 35,
         name:"Baked Sweet Potato",
-        category: "",
+        category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -351,7 +351,7 @@ export const recipeData = [
     {
         id: 36,
         name:"Baked Potato",
-        category: "",
+        category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -361,7 +361,7 @@ export const recipeData = [
     {
         id: 37,
         name:"French Toast",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -371,7 +371,7 @@ export const recipeData = [
     {
         id: 38,
         name:"Steamed White Rice",
-        category: "",
+        category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -381,7 +381,7 @@ export const recipeData = [
     {
         id: 39,
         name:"Waffles",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -391,7 +391,7 @@ export const recipeData = [
     {
         id: 40,
         name:"Risotto",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -401,7 +401,7 @@ export const recipeData = [
     {
         id: 41,
         name:"Haddock",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -411,7 +411,7 @@ export const recipeData = [
     {
         id: 42,
         name:"Cod",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -421,7 +421,7 @@ export const recipeData = [
     {
         id: 43,
         name:"Creamy Sausage Tortellini",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -431,7 +431,7 @@ export const recipeData = [
     {
         id: 44,
         name:"Buffalo Veggie Patties",
-        category: "",
+        category: "Main",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -441,7 +441,7 @@ export const recipeData = [
     {
         id: 45,
         name:"Fire Roasted Carrots",
-        category: "",
+        category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
@@ -451,7 +451,7 @@ export const recipeData = [
     {
         id: 46,
         name:"Buffalo Cauliflower Wings",
-        category: "",
+        category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",

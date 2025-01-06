@@ -458,4 +458,14 @@ export const recipeData = [
         ingredients: ["Buffalo Sauce", "Cauliflower", "Panko"],
         lastCooked: "",
     },
+    {
+        id: 46,
+        name:"Broccoli Cheddar Soup",
+        category: "Side",
+        cookInstructions: ["", ""],
+        cookTemp: "",   
+        description: "",
+        ingredients: ["", "", ""],
+        lastCooked: "",
+    },
 ]

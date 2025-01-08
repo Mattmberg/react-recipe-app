@@ -1,3 +1,15 @@
+//Data Item Template Next id 48
+/*{
+    id: 1,
+    name:"",
+    category: "",
+    cookInstructions: ["", ""],
+    cookTemp: "",   
+    description: "",
+    ingredients: ["", "", "", "", ""],
+    lastCooked: "",
+},*/
+
 export const recipeData = [
     {
         id: 1,
@@ -459,7 +471,7 @@ export const recipeData = [
         lastCooked: "",
     },
     {
-        id: 46,
+        id: 47,
         name:"Broccoli Cheddar Soup",
         category: "Side",
         cookInstructions: ["", ""],

@@ -447,7 +447,7 @@ export const recipeData = [
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
-        ingredients: ["Buffalo Veggie Patties", "Sandwich Thins"],
+        ingredients: ["Buffalo Veggie Patties", "Sandwich Thins", "Sliced Cheese"],
         lastCooked: "",
     },
     {
@@ -476,7 +476,7 @@ export const recipeData = [
         category: "Side",
         cookInstructions: ["", ""],
         cookTemp: "",   
-        description: "",
+        description: "Usually a Panera premade.",
         ingredients: ["", "", ""],
         lastCooked: "",
     },

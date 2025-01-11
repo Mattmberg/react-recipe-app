@@ -68,7 +68,7 @@ export const recipeData = [
         cookTemp: "",   
         description: "",
         ingredients: ["Chicken", "Lemons", "Orzo Pasta"],
-
+        lastCooked: "",
     },
     {
         id: 7,

@@ -1,4 +1,4 @@
-//Data Item Template Next id 48
+//Data Item Template Next id 49
 /*{
     id: 1,
     name:"",
@@ -118,7 +118,7 @@ export const recipeData = [
         cookTemp: "",   
         description: "",
         ingredients: ["Bread", "Sliced Cheese"],
-        lastCooked: "",
+        lastCooked: "1/15",
     },
     {
         id: 12,
@@ -178,7 +178,7 @@ export const recipeData = [
         cookTemp: "",   
         description: "",
         ingredients: ["Pasta", "Meatballs", "Pasta Sauce"],
-        lastCooked: "",
+        lastCooked: "1/17",
     },
     {
         id: 18,
@@ -478,6 +478,16 @@ export const recipeData = [
         cookTemp: "",   
         description: "Usually a Panera premade.",
         ingredients: ["", "", ""],
+        lastCooked: "",
+    },
+    {
+        id: 48,
+        name:"Pork Loin",
+        category: "Main",
+        cookInstructions: ["Glass pan", "Put a layer if tin foil", "Put pork loin in and close tin foil around it", "Leave in oven for 30 minutes"],
+        cookTemp: "400",   
+        description: "",
+        ingredients: ["Pork Loin usually pre-marinaded",],
         lastCooked: "",
     },
 ]

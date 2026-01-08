@@ -174,7 +174,7 @@ export const recipeData = [
         id: 17,
         name:"Pasta and Meatballs",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Cook pasta for 12 minutes.", "Cook meatballs until thawed."],
         cookTemp: "",   
         description: "",
         ingredients: ["Pasta", "Meatballs", "Pasta Sauce"],

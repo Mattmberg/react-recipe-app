@@ -484,7 +484,7 @@ export const recipeData = [
         id: 48,
         name:"Pork Loin",
         category: "Main",
-        cookInstructions: ["Glass pan", "Put a layer if tin foil", "Put pork loin in and close tin foil around it", "Leave in oven for 30 minutes"],
+        cookInstructions: ["Glass pan", "Put a layer of tin foil", "Put pork loin in and close tin foil around it", "Leave in oven for 30 minutes"],
         cookTemp: "400",   
         description: "",
         ingredients: ["Pork Loin usually pre-marinaded",],

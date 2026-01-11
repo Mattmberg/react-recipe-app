@@ -314,7 +314,7 @@ export const recipeData = [
         id: 31,
         name:"Bagels",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Cook in toaster for desired amount of toasting.", ""],
         cookTemp: "",   
         description: "",
         ingredients: ["Bagels", "Cream Cheese"],

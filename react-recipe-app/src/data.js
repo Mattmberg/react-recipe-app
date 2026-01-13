@@ -154,7 +154,7 @@ export const recipeData = [
         id: 15,
         name:"Tacos",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Cook meat until it changes colors usually a white color for chicken.", ""],
         cookTemp: "",   
         description: "",
         ingredients: ["Hamburger", "Hard or Soft Taco Shells", "Shredded Cheese", "Shredded Lettuce"],

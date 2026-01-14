@@ -184,7 +184,7 @@ export const recipeData = [
         id: 18,
         name:"Nachos",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Put chees on chips and microwave until desired meltiness.", ""],
         cookTemp: "",   
         description: "",
         ingredients: ["Nacho Chips", "Shredded Cheese"],

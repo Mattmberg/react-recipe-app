@@ -234,7 +234,7 @@ export const recipeData = [
         id: 23,
         name:"Mini Burger Sliders",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Take burger meat and separate it into desired size.", "Cook on grill until cooked to your preference."],
         cookTemp: "",   
         description: "",
         ingredients: ["Hamburger", "Mini Burger Buns", "Sliced Cheese"],

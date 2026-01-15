@@ -284,7 +284,7 @@ export const recipeData = [
         id: 28,
         name:"Chicken Tender Wraps",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Heat wraps up to make it easier to wrap.", "Cook chicken per instructions on the bag."],
         cookTemp: "",   
         description: "",
         ingredients: ["Chicken", "Shredded Cheese", "Wraps"],

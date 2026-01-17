@@ -224,7 +224,7 @@ export const recipeData = [
         id: 22,
         name:"Pulled BBQ Chicken Sandwiches",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Cook the chicken in the crock pot.", "Shred it with two forks separating them."],
         cookTemp: "",   
         description: "",
         ingredients: ["Chicken", "BBQ Sauce", "Burger Buns", "Cheese"],

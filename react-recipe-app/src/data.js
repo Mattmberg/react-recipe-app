@@ -114,7 +114,7 @@ export const recipeData = [
         id: 11,
         name:"Grilled Cheese",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Butter the outsides of the bread slices.", "Put the buttered side face down."],
         cookTemp: "",   
         description: "",
         ingredients: ["Bread", "Sliced Cheese"],

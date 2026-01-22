@@ -114,7 +114,7 @@ export const recipeData = [
         id: 11,
         name:"Grilled Cheese",
         category: "Main",
-        cookInstructions: ["Butter the outsides of the bread slices.", "Put the buttered side face down.", "Put sliced cheese and top of sandwhich with the buttered side face up on the other slide that is buttered side face down."],
+        cookInstructions: ["Butter the outsides of the bread slices.", "Put the buttered side face down.", "Put sliced cheese and top of sandwhich with the buttered side face up on the other slide that is buttered side face down.", "Once that faced down side it toasted, flip it to the other buttered side."],
         cookTemp: "",   
         description: "",
         ingredients: ["Bread", "Sliced Cheese"],

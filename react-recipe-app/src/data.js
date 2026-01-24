@@ -94,7 +94,7 @@ export const recipeData = [
         id: 9,
         name:"Meatloaf",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Mix the raw meat with the raw eggs in a big glass bowl.", ""],
         cookTemp: "",   
         description: "",
         ingredients: ["Hamburger", "Ketchup", "Eggs"],

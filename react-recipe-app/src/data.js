@@ -94,7 +94,7 @@ export const recipeData = [
         id: 9,
         name:"Meatloaf",
         category: "Main",
-        cookInstructions: ["Mix the raw meat with the raw eggs in a big glass bowl.", "Separate into 4 equal parts to cook as different servings of meat loaf.", "Put on a pan with tin foil for the alloted amount of time."],
+        cookInstructions: ["Mix the raw meat with the raw eggs in a big glass bowl.", "Separate into 4 equal parts to cook as different servings of meat loaf.", "Put on a pan with tin foil for the alloted amount of time.", "Take out once meat has been fully cooked and let cool."],
         cookTemp: "",   
         description: "",
         ingredients: ["Hamburger", "Ketchup", "Eggs"],

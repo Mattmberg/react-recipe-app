@@ -87,7 +87,7 @@ export const recipeData = [
         cookInstructions: ["", ""],
         cookTemp: "",   
         description: "",
-        ingredients: ["Pizza Sauce", "Shredded Cheese"],
+        ingredients: ["Pizza Sauce", "Shredded Cheese", "Pizza Dough", "Any Desired Toppings"],
         lastCooked: "",
     },
     {

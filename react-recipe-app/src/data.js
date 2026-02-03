@@ -284,10 +284,10 @@ export const recipeData = [
         id: 28,
         name:"Chicken Tender Wraps",
         category: "Main",
-        cookInstructions: ["Heat wraps up to make it easier to wrap.", "Cook chicken per instructions on the bag.", "Cut chicken patties in half."],
+        cookInstructions: ["Heat wraps up to make it easier to wrap.", "Cook chicken per instructions on the bag.", "Cut chicken patties in half.", ""],
         cookTemp: "",   
         description: "",
-        ingredients: ["Chicken", "Shredded Cheese", "Wraps"],
+        ingredients: ["Chicken", "Shredded Cheese", "Wraps", "Buffalo Sauce", "Ranch Dressing"],
         lastCooked: "",
     },
     {

@@ -35,7 +35,7 @@ export const recipeData = [
         id: 3,
         name:"Scrambled Eggs",
         category: "Main",
-        cookInstructions: ["Crack the eggs into a bowl for mixing.", "Beat the eggs until everything is mixed well."],
+        cookInstructions: ["Crack the eggs into a bowl for mixing.", "Beat the eggs until everything is mixed well.", "Pour into hot pan on stove for cooking."],
         cookTemp: "",   
         description: "",
         ingredients: ["Eggs", "Salt", "Pepper", "Milk"],

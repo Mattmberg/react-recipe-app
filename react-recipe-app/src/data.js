@@ -55,7 +55,7 @@ export const recipeData = [
         id: 5,
         name:"Homemade Chicken Tenders",
         category: "Main",
-        cookInstructions: ["Crack the eggs into a mixing bowl.", ""],
+        cookInstructions: ["Crack the eggs into a mixing bowl.", "Beat the eggs until properly mixed."],
         description: "",
         ingredients: ["Chicken", "Panko", "Eggs"],
         lastCooked: "",

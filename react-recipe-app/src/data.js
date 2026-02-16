@@ -15,7 +15,7 @@ export const recipeData = [
         id: 1,
         name:"Steak and Cheese Wraps",
         category: "Main",
-        cookInstructions: ["", ""],
+        cookInstructions: ["Cut up the vegetables you would like to add- i.e. peppers onions etc.", ""],
         cookTemp: "",   
         description: "",
         ingredients: ["Shaved Steak", "Cheese", "Wrap", "Various Colored Peppers", "Onion"],

@@ -5,6 +5,7 @@ import '../App.css';
 import { RecipeCard } from "./RecipeCard";
 import { useState } from "react";
 import { send } from 'emailjs-com';
+import { RecipeForm } from "./RecipeForm";
 
 export const Container = () => {
     const [meals, setMeals] = useState({

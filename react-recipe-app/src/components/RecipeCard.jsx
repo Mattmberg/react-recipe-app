@@ -1,10 +1,15 @@
-
+import { Suspense } from "react";
 
 export const RecipeCard = ({category, cookInstructions, cookTemp, description, id, ingredients, lastCooked, name}) => {
     return (
         <div className ="recipe-card">
             <div className="recipe-card-body">
-                <div className="recipe-name"><label className=""><b><u>{name}</u></b></label></div>
+                <div className="recipe-name">
+                    <label className="">
+                        <b><u>{name}</u></b>
+                    </label>
+                </div>
+                <Suspense fallback={<Loading/>}>         
                 <p className="recipe-description">
                     {description}
                 </p>
@@ -21,7 +26,12 @@ export const RecipeCard = ({category, cookInstructions, cookTemp, description, i
                     return(<p>{ingredient}</p>);
                 })}
                 </p>
+                </Suspense>
             </div>
         </div>
     );
 };
+
+function Loading() {
+    return <h2>Loading recipes...</h2>;
+}
